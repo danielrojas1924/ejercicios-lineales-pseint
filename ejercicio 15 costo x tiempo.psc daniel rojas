@@ -1,0 +1,12 @@
+Algoritmo ejercicio_15_costo_tiempo
+	// definir variables
+	definir costo_total,tarifa_x_hora,cantidad_de_horas Como Real;
+	escribir "percio X hora $";
+	Leer tarifa_x_hora;
+	escribir " horas trabajadas (tiempo) ";
+	leer cantidad_de_horas;
+	
+	costo_total <- tarifa_x_hora * cantidad_de_horas;
+	Escribir "el suledo por horas trabajadas es $: " , costo_total
+	
+FinAlgoritmo
