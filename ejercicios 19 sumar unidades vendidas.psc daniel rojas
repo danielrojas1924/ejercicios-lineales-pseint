@@ -1,0 +1,39 @@
+Algoritmo ejercicio_19_sumar_unidades_vendidas
+	
+	// definir variables
+	definir producto_1,producto_2,producto_3 Como Caracter
+	definir uni1,uni2,uni3,precio_1,precio_2,precio_3,total_a_pagar Como Real
+	definir resultado_1,resultado_2,resultado_3 Como Entero
+	
+	escribir " nombre del producto 1";
+	leer producto_1;
+	escribir "escribir cantidades del producto 1"
+	Leer uni1;
+	Escribir "precio del producto 1"
+	leer precio_1;
+	escribir "nombre del producto 2";
+	leer producto_2;
+	Escribir "cantidades del producto 2"
+	Leer uni2;
+	Escribir " precio del producto 2"
+	Leer precio_2;
+	Escribir "nombre del producto 3"
+	Leer producto_3;
+	Escribir "escribir cantidades del tercer producto 3"
+	Leer uni3
+	Escribir "precio del producto 3 "
+	Leer precio_3;
+	resultado_1 <- uni1*precio_1; 
+	resultado_2 <- uni2*precio_2;
+	resultado_3 <- uni3*precio_3;
+	total_a_pagar <- resultado_1 + resultado_2 + resultado_3;
+	escribir "el total a pagar de los 3 productos es $:",total_a_pagar;
+	
+	
+	
+
+	
+	
+	
+	
+FinAlgoritmo
