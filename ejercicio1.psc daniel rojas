@@ -1,0 +1,19 @@
+Algoritmo ejercicio1
+//1. definir las variables	
+	definir nombre como caracter;
+	definir apellido como caracter;
+	definir mensaje como caracter;
+	
+	//2. asignar valores
+	nombre <- "Daniel";
+	apellido <- "Rojas";
+	
+	//3. procesar datos
+	mensaje <- ' bienvenido usuario: '+nombre+" "+apellido + " Hola"
+	
+	//4. Imprimir resultados (Mensaje)
+	Escribir mensaje
+	FinAlgoritmo
+
+	
+	
