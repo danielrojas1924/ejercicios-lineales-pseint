@@ -1,0 +1,18 @@
+Algoritmo ejercicio_17_calorias_consumidas
+	
+	// definir variables
+	
+	definir calorias_total_semana Como Real;
+	Definir lunes,martes,miercoles,jueves,viernes,sabado,domingo Como Entero;
+	
+	Escribir "calorias consumidas en la semana";
+	Leer lunes,martes,miercoles,jueves,viernes,sabado,domingo;
+	
+	calorias_total_semana <- (lunes+martes+miercoles+jueves+viernes+sabado+domingo);
+	Escribir " el total de calorias consumidas en la semana es:",calorias_total_semana;
+	
+	
+	
+	
+	
+FinAlgoritmo
