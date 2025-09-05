@@ -1,0 +1,23 @@
+Algoritmo ejercicio_14_edad_en_años
+	
+	//. definir variables
+	
+	definir añoActual,año_de_N_1,año_de_N_2,año_de_N_3,resultado_1,resultado_2,resultado_3 Como Entero;
+	Escribir "año de nacimiento primera persona";
+	Leer año_de_N_1;
+	Escribir  "añode nacimiento segunda persona";
+	leer año_de_N_2;
+	Escribir  "año de nacimiento tercera persona";
+	Leer año_de_N_3;
+	escribir "fecha actual"
+	leer añoActual;
+	resultado_1 <- añoActual-año_de_N_1;
+	resultado_2 <- añoActual- año_de_N_2;
+	resultado_3 <- añoActual- año_de_N_3;	
+	escribir " la edad de la primera persona es: ",resultado_1; 
+	Escribir "la edad de la segunda persona es:" ,resultado_2; 
+	Escribir  "la edad de la tercera persona es:", resultado_3; 
+	
+	
+	
+FinAlgoritmo
