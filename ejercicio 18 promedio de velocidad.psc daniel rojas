@@ -1,0 +1,26 @@
+Algoritmo ejercicio_18_promedio_de_velocidad
+	
+	// definir variables
+	
+	Definir carro_1,carro_2,distancia_1,distancia_2,tiempo_1,tiempo_2 Como Entero
+	
+	Escribir " distancia recorrido por el carro 1";
+	leer distancia_1;
+	escribir " tiempo transcurrido por el carro 1";
+	leer tiempo_1;
+	
+	carro_1<- (distancia_1/tiempo_1);
+	
+	Escribir "el promedia de la velocidad del carro 1 es:",carro_1 "km"
+	
+	Escribir " distancia recorrido por el carro 2";
+	
+	Leer  distancia_2;
+	Escribir "tiempo transcurrido por el carro 2 ";
+	leer tiempo_2;
+	
+	carro_2<- (distancia_2/tiempo_2);
+	
+	Escribir " elpromedio de la velocidad del carro 2 es:",carro_2 "km"
+	
+FinAlgoritmo
