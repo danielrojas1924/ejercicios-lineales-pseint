@@ -1,0 +1,21 @@
+Algoritmo ejercicio_16_masa_corporal
+	
+	// definir variables
+	
+	definir IMC_1,IMC_2,altura_1,altura_2 Como Real;
+	definir peso_1,peso_2 Como Entero;
+	escribir " peso de la primera persona kg:";
+	Leer peso_1;
+	Escribir " altura de la primera persona:"
+	leer altura_1
+	Escribir " peso de la segunda persona kg:";
+	Leer peso_2;
+	Escribir "altura de la segunda persona:";
+	leer altura_2;
+	IMC_1<- peso_1/( altura_1*altura_1);
+	IMC_2<- peso_2/( altura_2*altura_2);
+	
+	Escribir "la masa corporal de la primera persona es :", IMC_1
+	Escribir "la masa corporal de la segunda persona es :", IMC_2
+	
+FinAlgoritmo
